@@ -1,0 +1,28 @@
+{
+    "name": "ichtrojan/laravel-otp",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mac Goodlife",
+            "email": "macc.goodlife@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Ichtrojan\\Otp\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ichtrojan\\Otp\\OtpServiceProvider"
+            ],
+            "aliases": {
+                "Otp": "Ichtrojan\\Otp\\Otp"
+            }
+        }
+    },
+    "require": {},
+    "description": "A simple

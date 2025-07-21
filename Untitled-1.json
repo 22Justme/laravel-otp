@@ -4,8 +4,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Mac Goodlife",
-            "email": "macc.goodlife@gmail.com"
+            "name": "KIMCYBER",
+            "email": "KIMCYBERR@GMAIL.COM"
         }
     ],
     "minimum-stability": "dev",
@@ -25,4 +25,5 @@
         }
     },
     "require": {},
-    "description": "A simple
+        "description": "A simple Laravel OTP package"
+    }

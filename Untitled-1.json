@@ -24,6 +24,6 @@
             }
         }
     },
-    "require": {},
+        "require": {},
         "description": "A simple Laravel OTP package"
     }

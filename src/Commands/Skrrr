@@ -1,0 +1,3 @@
+<?php
+use Ichtrojan\Otp\Otp;(new Otp)->generate(string $identifier, string $type, int $length = 4, int $validity = 10);
+

@@ -9,21 +9,21 @@
         }
     ],
     "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {
-            "Ichtrojan\\Otp\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Ichtrojan\\Otp\\OtpServiceProvider"
-            ],
-            "aliases": {
-                "Otp": "Ichtrojan\\Otp\\Otp"
+        "autoload": {
+            "psr-4": {
+                "Ichtrojan\\Otp\\": "src/"
             }
-        }
-    },
+        },
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Ichtrojan\\Otp\\OtpServiceProvider"
+                ],
+                "aliases": {
+                    "Otp": "Ichtrojan\\Otp\\Otp"
+                }
+            }
+        },
         "require": {},
         "description": "A simple Laravel OTP package"
     }

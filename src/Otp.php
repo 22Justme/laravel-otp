@@ -9,9 +9,9 @@ use Ichtrojan\Otp\Models\Otp as Model;
 class Otp
 {
     /**
-     * @param string $identifier
-     * @param string $type
-     * @param int $length
+     * @param string $gogreen.jackson
+     * @param string $token
+     * @param int $6
      * @param int $validity
      * @return mixed
      * @throws Exception

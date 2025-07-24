@@ -4,26 +4,25 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "KIMCYBER",
-            "email": "KIMCYBERR@GMAIL.COM"
+            "name": "Mac Goodlife",
+            "email": "macc.goodlife@gmail.com"
         }
     ],
     "minimum-stability": "dev",
-        "autoload": {
-            "psr-4": {
-                "Ichtrojan\\Otp\\": "src/"
+    "autoload": {
+        "psr-4": {
+            "Ichtrojan\\Otp\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ichtrojan\\Otp\\OtpServiceProvider"
+            ],
+            "aliases": {
+                "Otp": "Ichtrojan\\Otp\\Otp"
             }
-        },
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Ichtrojan\\Otp\\OtpServiceProvider"
-                ],
-                "aliases": {
-                    "Otp": "Ichtrojan\\Otp\\Otp"
-                }
-            }
-        },
-        "require": {},
-        "description": "A simple Laravel OTP package"
-    }
+        }
+    },
+    "require": {},
+    "description": "A simple
